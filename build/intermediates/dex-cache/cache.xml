@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/pre-dexed/debug/classes-c94e7fe1909476e276fa5d961628835e4eae1c98.jar" />
+    </item>
+    <item
+        jar="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/pre-dexed/debug/classes-aae6f53981151d864addc27b0ba1206dccc5dd0a.jar" />
+    </item>
+    <item
+        jar="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/pre-dexed/debug/classes-2c2afea1d2cdd2945ea95319fde2ee63092f2d9e.jar" />
+    </item>
+    <item
+        jar="/Users/raymond/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-f0bceaa11fb8157e9fc9a7e680889b15945d4c9c.jar" />
+    </item>
+    <item
+        jar="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/pre-dexed/debug/classes-8fc39037f4bab9408345f332103459917e8dff62.jar" />
+    </item>
+    <item
+        jar="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-f5c6b42a2621e3e30ae393b9ba731f3794b2bf66.jar" />
+    </item>
+    <item
+        jar="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/pre-dexed/debug/classes-fcd67a7c0b2aa1d749dbd07d2020b236d3d627c8.jar" />
+    </item>
+    <item
+        jar="/Users/raymond/tmprepo/call-blocker/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="48c94ae70fa65718b382098237806a5909bb096e">
+        <dex dex="/Users/raymond/tmprepo/call-blocker/app/build/intermediates/pre-dexed/debug/android-support-v4-afef8b29d9a051842be786b77ee3ea21f2e36d6a.jar" />
+    </item>
+
+</items>

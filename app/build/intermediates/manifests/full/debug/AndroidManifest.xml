@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.connectutb.callshield"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.connectutb.callshield.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.connectutb.callshield.BlockListActivity"
+            android:label="@string/blocked_numbers" >
+        </activity>
+        <activity
+            android:name="com.connectutb.callshield.BlockLogActivity"
+            android:label="@string/blocked_calls" >
+        </activity>
+        <activity
+            android:name="com.connectutb.callshield.Preferences"
+            android:label="@string/menu_settings" >
+        </activity>
+
+        <receiver android:name="com.connectutb.callshield.receivers.IncomingCallsReceiver" >
+            <intent-filter android:priority="99999999" >
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.connectutb.callshield.MainActivity { <init>(); }
+-keep class com.connectutb.callshield.BlockListActivity { <init>(); }
+-keep class com.connectutb.callshield.BlockLogActivity { <init>(); }
+-keep class com.connectutb.callshield.Preferences { <init>(); }
+-keep class com.connectutb.callshield.receivers.IncomingCallsReceiver { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

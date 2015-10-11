@@ -1,0 +1,46 @@
+-injars /Users/raymond/tmprepo/call-blocker/app/build/intermediates/multi-dex/debug/allclasses.jar
+-outjars /Users/raymond/tmprepo/call-blocker/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/raymond/Library/Android/sdk/build-tools/22.0.1/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration /Users/raymond/tmprepo/call-blocker/app/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.connectutb.callshield.MainActivity {
+    <init>();
+}
+
+-keep class com.connectutb.callshield.BlockListActivity {
+    <init>();
+}
+
+-keep class com.connectutb.callshield.BlockLogActivity {
+    <init>();
+}
+
+-keep class com.connectutb.callshield.Preferences {
+    <init>();
+}
+
+-keep class com.connectutb.callshield.receivers.IncomingCallsReceiver {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
